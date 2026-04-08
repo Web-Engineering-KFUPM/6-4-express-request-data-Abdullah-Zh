@@ -4,7 +4,7 @@
 
 - **Lab:** 6-4-express-request-data-main
 - **Deadline (Riyadh / UTC+03:00):** 2026-04-08T20:59:00+03:00
-- **Last commit time (from git log):** 2026-04-08T08:45:20+03:00
+- **Last commit time (from git log):** 2026-04-08T08:46:48+03:00
 - **Submission marks:** **20/20** (On time)
 
 
@@ -51,16 +51,16 @@
 **Deductions / Notes**
 - ✅ No deductions. Good job!
 
-### TODO 4: Implement app.param("userId") middleware — **11.25/15**
+### TODO 4: Implement app.param("userId") middleware — **15/15**
 
 **Checklist**
 - ✅ Defines app.param("userId", ...)
 - ✅ Converts userId to a number
-- ❌ Rejects invalid/non-positive userId with status 400 JSON error
+- ✅ Rejects invalid/non-positive userId with status 400 JSON error
 - ✅ Stores numeric value in req.userIdNum and calls next()
 
 **Deductions / Notes**
-- ❗ Missing: Rejects invalid/non-positive userId with status 400 JSON error
+- ✅ No deductions. Good job!
 
 ### TODO 5: Implement GET /users/:userId route — **15/15**
 
